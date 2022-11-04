@@ -16,6 +16,7 @@
     </style>
     <style name="card">
         <item name="cardBackgroundColor">@color/colorPrimary</item>
+        <item name="android:gravity">center</item>
     </style>
 
     <style name="card2">
@@ -25,7 +26,8 @@
     </style>
 
     <style name="button">
-        <item name="backgroundTint">@color/colorSecondaryLight</item>
+        <item name="backgroundTint">@color/colorSecondary</item>
+        <item name="elevation">8dp</item>
     </style>
 
     <style name="input">
@@ -40,6 +42,8 @@
 
     <style name="title" parent="text">
         <item name="android:textSize">30sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginBottom">15dp</item>
     </style>
 
     <style name="body" parent="text">

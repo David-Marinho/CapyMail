@@ -19,7 +19,7 @@ class tela_inicial : AppCompatActivity() {
     }
 
     private  fun criar_conta(){
-        val proximaTela = Intent(this, criarConta::class.java)
+        val proximaTela = Intent(this, sign_in_1::class.java)
         startActivity(proximaTela)
     }
 }

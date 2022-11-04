@@ -69,8 +69,7 @@
                 android:foregroundGravity="left|center"
                 android:padding="20dp"
                 android:text="Voltar para o inicio"
-                android:textColor="@color/textColor"
-                app:elevation="8dp" />
+                android:textColor="@color/textColor" />
 
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
