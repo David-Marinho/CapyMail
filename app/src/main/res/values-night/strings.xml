@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="titulo">Crie sua conta</string>
+    <string name="paragrafo">Estamos felizes em ter você aqui. Agora, um lorem ipsum: Lorem ipsum dolor sit amet,</string>
+    <string name="digite">Digite um Email:</string>
+    <string name="email_exemplo">Email@exemplo.com</string>
+    <string name="senha">Digite uma senha</string>
+    <string name="hint_senha">senha</string>
+    <string name="parabens">Parabens!</string>
+    <string name="texto">Você concluiu seu registro</string>
+    <string name="desc">Agora deixe que nossas capivaras cuidem do resto</string>
+    <string name="text_botao">Voltar para o inicio</string>
+    <string name="button">Avançar</string>
+</resources>
