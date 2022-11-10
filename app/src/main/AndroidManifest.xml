@@ -13,6 +13,13 @@
         android:theme="@style/Theme.Criar_conta"
         tools:targetApi="31">
         <activity
+            android:name=".sign_in3"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".sign_in_1"
             android:exported="false">
             <meta-data

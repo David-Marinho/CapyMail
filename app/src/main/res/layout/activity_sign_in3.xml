@@ -36,7 +36,7 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="20dp"
                 android:text="@string/paragrafo"
-                 />
+                />
 
             <TextView
                 style="@style/body"
@@ -45,17 +45,36 @@
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginTop="80dp"
                 android:layout_marginBottom="15dp"
-                android:text="@string/digite" />
+                android:text="@string/senha" />
 
             <EditText
                 style="@style/input"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="15dp"
-                android:drawableStart="@drawable/ic_baseline_person_24"
+                android:drawableStart="@drawable/ic_baseline_password_24"
                 android:drawablePadding="20dp"
-                android:hint="@string/email_exemplo"
-                android:inputType="textEmailAddress" />
+                android:hint="@string/hint_senha"
+                android:inputType="numberPassword" />
+
+            <TextView
+                style="@style/body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginBottom="15dp"
+                android:text="Digite a senha novamente" />
+
+            <EditText
+                style="@style/input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:drawableStart="@drawable/ic_baseline_password_24"
+                android:drawablePadding="20dp"
+                android:hint="@string/hint_senha"
+                android:inputType="numberPassword" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
