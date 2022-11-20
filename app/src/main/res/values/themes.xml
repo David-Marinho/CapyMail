@@ -27,7 +27,7 @@
     </style>
 
     <style name="button">
-        <item name="backgroundTint">@color/colorSecondary</item>
+        <item name="backgroundTint">@color/colorPrimaryDark</item>
         <item name="elevation">8dp</item>
     </style>
 
