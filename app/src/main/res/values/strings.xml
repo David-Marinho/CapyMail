@@ -1,17 +1,29 @@
 <resources>
-    <string name="titulo1">Crie sua conta</string>
+    <string name="app_name">CapyMail</string>
+
+    <!-- Main -->
+
     <string name="esqueceu_a_senha">esqueceu a senha?</string>
     <string name="login">Entre agora</string>
     <string name="criar_conta">Crie sua conta</string>
-    <string name="saudaçoes">Bem vindo ao CapyMail</string>
-    <string name="frase">envie seu email tão tranquilo como uma capivara</string>
+    <string name="saudaçoes">CapyMail</string>
+    <string name="frase">Seus emails tranquilos como uma capivara</string>
     <string name="rodape">CapyMail é um projeto criado pelos brabos do CCO</string>
     <string name="logo">logo</string>
 
-    <string name="app_name">CapyMail</string>
-    <string name="titulo2">Crie sua conta</string>
-    <string name="paragrafo">Estamos felizes em ter você aqui. Agora, um lorem ipsum: Lorem ipsum dolor sit amet,</string>
-    <string name="digite">Digite um Email:</string>
+    <string name="titulo">Crie sua conta</string>
+
+    <!-- Sign in 1 -->
+    <string name="paragrafo">Que bom ter você aqui</string>
+    <string name="paragrafo2">Para começar, nos diga o seu nome completo</string>
+    <string name="nomeExemplo">Nome completo</string>
+
+    <!-- Sign in 2 -->
+    <string name="paragrafo3">Você tambem pode adicionar uma foto para seu perfil</string>
+
+    <!-- Sign in 3 -->
+    <string name="paragrafo4">Olá {usuario}. Para proseguir, digite seu email para cadastro</string>
+
     <string name="email_exemplo">Email@exemplo.com</string>
     <string name="senha">Digite uma senha</string>
     <string name="hint_senha">senha</string>
