@@ -16,10 +16,19 @@ class Main : AppCompatActivity() {
         binding.criarConta.setOnClickListener{
             criarConta()
         }
+
+        binding.login.setOnClickListener{
+            telaLogin()
+        }
     }
 
-    private  fun criarConta(){
+    private fun criarConta(){
         val next = Intent(this, SignIn1::class.java)
+        startActivity(next)
+    }
+
+    private fun telaLogin(){
+        val next = Intent(this, Login::class.java)
         startActivity(next)
     }
 }

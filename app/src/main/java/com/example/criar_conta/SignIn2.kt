@@ -13,6 +13,8 @@ class SignIn2 : AppCompatActivity() {
         binding = ActivitySignIn2Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        var text = intent.extras("nome")
+
         binding.btnNext.setOnClickListener{
             nextScreen()
         }

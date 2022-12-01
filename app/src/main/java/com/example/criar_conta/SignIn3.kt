@@ -3,6 +3,7 @@ package com.example.criar_conta
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.criar_conta.databinding.ActivitySignIn1Binding
 import com.example.criar_conta.databinding.ActivitySignIn3Binding
 
 class SignIn3 : AppCompatActivity() {
@@ -12,6 +13,7 @@ class SignIn3 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySignIn3Binding.inflate(layoutInflater)
         setContentView(binding.root)
+
 
         binding.btnNext.setOnClickListener{
             nextScreen()

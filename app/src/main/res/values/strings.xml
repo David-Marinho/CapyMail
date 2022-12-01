@@ -33,5 +33,9 @@
     <string name="text_botao">Voltar para o inicio</string>
     <string name="button">Avançar</string>
 
+    <!-- Sign in 3 -->
+    <string name="titulo2">Entre na sua conta</string>
+    <string name="texto1">Digite seu email</string>
+    <string name="texto2">Digite sua senha</string>
 
 </resources>

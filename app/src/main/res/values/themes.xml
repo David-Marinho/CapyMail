@@ -38,7 +38,7 @@
 
     <style name="input">
         <item name="android:background">@drawable/input</item>
-        <item name="android:textColorHint">@color/white</item>
+        <item name="android:textColorHint">@color/textColorHint</item>
         <item name="android:textColor">@color/white</item>
         <item name="android:padding">15dp</item>
     </style>

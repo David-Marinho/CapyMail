@@ -5,6 +5,7 @@
     <color name="colorPrimaryDark">#C1601E</color>
 
     <color name="textColor">#FFFFFF</color>
+    <color name="textColorHint">#E1E1E1</color>
 
     <color name="colorSecondary">#FF6700</color>
     <color name="colorSecondaryLight">#56c7d6</color>
