@@ -43,7 +43,9 @@
                 android:layout_height="120dp"
                 android:layout_gravity="center"
                 android:layout_marginBottom="50dp"
-                tools:ignore="SpeakableTextPresentCheck" />
+                tools:ignore="SpeakableTextPresentCheck"
+                android:src="@drawable/ic_baseline_photo_24"
+                />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>

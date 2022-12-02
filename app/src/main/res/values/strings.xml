@@ -22,7 +22,7 @@
     <string name="paragrafo3">Você tambem pode adicionar uma foto para seu perfil</string>
 
     <!-- Sign in 3 -->
-    <string name="paragrafo4">Olá {usuario}. Para proseguir, digite seu email para cadastro</string>
+    <string name="paragrafo4">Olá. Para proseguir, digite seu email para cadastro</string>
 
     <string name="email_exemplo">Email@exemplo.com</string>
     <string name="senha">Digite uma senha</string>
