@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn3">
+    tools:context=".Login">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
@@ -27,17 +27,16 @@
                 style="@style/title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/titulo"/>
+                android:text="@string/titulo2"/>
 
             <TextView
-                android:id="@+id/paragrafo"
                 style="@style/body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="20dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginStart="20dp"
-                android:text="@string/paragrafo4" />
+                android:text="@string/texto1" />
 
             <EditText
                 style="@style/input"
@@ -47,8 +46,30 @@
                 android:drawableStart="@drawable/ic_baseline_person_24"
                 android:drawablePadding="20dp"
                 android:hint="@string/email_exemplo"
-                android:inputType="textEmailAddress" />
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="50dp"/>
+
+            <TextView
+                style="@style/body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginBottom="15dp"
+                android:layout_marginStart="20dp"
+                android:text="@string/texto2" />
+
+            <EditText
+                style="@style/input"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:drawableStart="@drawable/ic_baseline_password_24"
+                android:drawablePadding="20dp"
+                android:hint="@string/hint_senha"
+                android:inputType="numberPassword" />
         </LinearLayout>
+
+
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -56,9 +77,12 @@
         style="@style/buttonRounded"
         android:layout_width="70dp"
         android:layout_height="70dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="-10dp"
         android:contentDescription="@string/button"
         android:foreground="@drawable/arrow_next"
         android:foregroundGravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/card"
         app:layout_constraintEnd_toEndOf="@+id/card" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

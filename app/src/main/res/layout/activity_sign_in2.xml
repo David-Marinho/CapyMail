@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SignIn3">
+    tools:context=".SignIn2">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
@@ -25,30 +25,27 @@
 
             <TextView
                 style="@style/title"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/titulo"/>
+                android:text="@string/criar_conta" />
 
             <TextView
-                android:id="@+id/paragrafo"
-                style="@style/body"
-                android:layout_width="match_parent"
+                style="@style/text"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginHorizontal="20dp"
                 android:layout_marginBottom="15dp"
                 android:layout_marginStart="20dp"
-                android:text="@string/paragrafo4" />
+                android:text="@string/paragrafo3" />
 
-            <EditText
-                style="@style/input"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginHorizontal="15dp"
-                android:drawableStart="@drawable/ic_baseline_person_24"
-                android:drawablePadding="20dp"
-                android:hint="@string/email_exemplo"
-                android:inputType="textEmailAddress" />
+            <ImageButton
+                style="@style/input2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="50dp"
+                tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
+
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -56,9 +53,9 @@
         style="@style/buttonRounded"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:contentDescription="@string/button"
         android:foreground="@drawable/arrow_next"
         android:foregroundGravity="center"
         app:layout_constraintBottom_toBottomOf="@+id/card"
-        app:layout_constraintEnd_toEndOf="@+id/card" />
+        app:layout_constraintEnd_toEndOf="@+id/card"
+        android:contentDescription="@string/button" />
 </androidx.constraintlayout.widget.ConstraintLayout>

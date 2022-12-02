@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ripple_effect"
+
+    >
+
+    <ImageView
+        android:id="@+id/perfil"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="75dp"
+        android:background="@drawable/image_shape"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="48dp"
+        android:text="irinel@gmail.com"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/perfil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/conteudo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-15dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="60dp"
+        android:maxLines="4"
+        android:text="bnjbnfjbnfknbkfnbkfjnbkfnbbfgbfgbgfbgfbgfkfnvdfvdfvdfvfvdfvdfv"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/titulo"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="@+id/conteudo"
+        app:layout_constraintTop_toBottomOf="@+id/conteudo">
+
+        <ImageView
+            android:id="@+id/estrela"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/estrela_on"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/estudo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/livro_on"
+            android:layout_marginEnd="10dp"/>
+        <ImageView
+            android:id="@+id/trabalho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/trabalho_on"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/redes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/redes_on"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/noticias"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/noticias_on"
+            android:layout_marginEnd="10dp"/>
+
+        <ImageView
+            android:id="@+id/span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/span_on"
+            android:layout_marginEnd="10dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
