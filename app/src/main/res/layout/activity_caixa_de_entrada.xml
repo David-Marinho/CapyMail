@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CaixaDeEntrada">
+    tools:context=".CaixaDeEntrada"
+    android:background="@color/background2">
 
     <androidx.appcompat.widget.AppCompatImageButton
         android:id="@+id/appCompatImageButton"
@@ -12,30 +13,30 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
         android:layout_marginTop="35dp"
-        android:background="@color/white"
+        android:background="#00FFFFFF"
         android:src="@drawable/ic_baseline_menu_24"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/editText"
         style="@style/input3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="55dp"
         android:layout_marginTop="30dp"
-        android:layout_marginEnd="50dp"
         android:drawableStart="@drawable/ic_baseline_search_24"
         android:drawablePadding="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerEmails"
         android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:layout_marginTop="70dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="6dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:layout_width="60dp"
@@ -45,5 +46,7 @@
         android:foreground="@drawable/ic_baseline_edit_24"
         android:foregroundGravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        android:backgroundTint="@color/buttom"
+        app:borderWidth="0dp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

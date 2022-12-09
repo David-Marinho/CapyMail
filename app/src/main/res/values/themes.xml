@@ -1,33 +1,27 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Theme.Criar_conta" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <!-- Primary brand color. -->
         <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryVariant">@color/colorPrimaryLight</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorOnPrimary">@color/textColor</item>
-        <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/colorSecondary</item>
-        <item name="colorSecondaryVariant">@color/colorSecondaryLight</item>
-        <item name="colorOnSecondary">@color/textColor</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
-        <!-- Customize your theme here. -->
     </style>
+
     <style name="card">
-        <item name="cardBackgroundColor">@color/colorPrimary</item>
+        <item name="cardBackgroundColor">@color/background</item>
         <item name="cardElevation">6dp</item>
         <item name="cornerRadius">8dp</item>
     </style>
 
     <style name="card2">
-        <item name="cardBackgroundColor">@color/white</item>
+        <item name="cardBackgroundColor">@color/card</item>
         <item name="cardCornerRadius">10dp</item>
 
     </style>
 
     <style name="button">
-        <item name="backgroundTint">@color/colorSecondary</item>
+        <item name="backgroundTint">@color/buttom</item>
     </style>
 
     <style name="buttonRounded" parent="button">

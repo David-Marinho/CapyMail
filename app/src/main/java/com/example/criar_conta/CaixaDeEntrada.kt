@@ -25,8 +25,8 @@ class CaixaDeEntrada : AppCompatActivity() {
 
         val email1 = Email(
             perfil = R.drawable.capivara1,
-            titulo = "Procuramos DJs",
-            conteudo = "Bom dia. É com muito prazer que anunciamos que estamos procurando um DJ profisional. Se estiver interessado, favor, responder esse email com seu curriculo",
+            titulo = "Email 1",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
             estrela = R.drawable.estrela_on,
             estudo = R.drawable.livro_off,
             trabalho = R.drawable.trabalho_on,
@@ -38,8 +38,8 @@ class CaixaDeEntrada : AppCompatActivity() {
 
         val email2 = Email(
             perfil = R.drawable.capivara6,
-            titulo = "Olá mundo",
-            conteudo = "Bom dia a todos! Esperamos que estejam gostando da apresentação.",
+            titulo = "Email 2",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
             estrela = R.drawable.estrela_on,
             estudo = R.drawable.livro_on,
             trabalho = R.drawable.trabalho_on,
@@ -51,8 +51,8 @@ class CaixaDeEntrada : AppCompatActivity() {
 
         val email3 = Email(
             perfil = R.drawable.capivara4,
-            titulo = "Envio de documento",
-            conteudo = "Bom dia, Sr(a). Aqui esta os seus documentos que voce pediu a 3 meses atras. assinado: Coordenado sumida de CCO Piedade",
+            titulo = "Email 3",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
             estrela = R.drawable.estrela_on,
             estudo = R.drawable.livro_off,
             trabalho = R.drawable.trabalho_off,
@@ -64,8 +64,8 @@ class CaixaDeEntrada : AppCompatActivity() {
 
         val email4 = Email(
             perfil = R.drawable.capivara7,
-            titulo = "Que merda de aula",
-            conteudo = "Um aluno acaba de enviar uma mensagem no grupo: 'Lab. de Redes': 'Professor merda do caramba'",
+            titulo = "Email 4",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
             estrela = R.drawable.estrela_off,
             estudo = R.drawable.livro_on,
             trabalho = R.drawable.trabalho_off,
@@ -77,8 +77,8 @@ class CaixaDeEntrada : AppCompatActivity() {
 
         val email5 = Email(
             perfil = R.drawable.capivara3,
-            titulo = "Clique aqui e concorra a um iphone 20",
-            conteudo = "Imperdivel!!! concorra agora a um iphone 20 é so se cadastrar nesse site nada suspeito",
+            titulo = "Email 5",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
             estrela = R.drawable.estrela_off,
             estudo = R.drawable.livro_off,
             trabalho = R.drawable.trabalho_off,
@@ -90,8 +90,8 @@ class CaixaDeEntrada : AppCompatActivity() {
 
         val email6 = Email(
             perfil = R.drawable.capivara5,
-            titulo = "Ultimas noticias no mundo",
-            conteudo = "Agora: alguem importante falou alguma coisa e agora ta todo mundo xingando ele na internet. para mais noticias, acesse: www.sitealeatorio.com.br",
+            titulo = "Email 6",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
             estrela = R.drawable.estrela_off,
             estudo = R.drawable.livro_off,
             trabalho = R.drawable.trabalho_off,
@@ -103,8 +103,8 @@ class CaixaDeEntrada : AppCompatActivity() {
 
         val email7 = Email(
             perfil = R.drawable.capivara1,
-            titulo = "Faltou criatividade",
-            conteudo = "foi mal, essa é só p encher linguiça",
+            titulo = "Email 7",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
             estrela = R.drawable.estrela_off,
             estudo = R.drawable.livro_off,
             trabalho = R.drawable.trabalho_off,
@@ -113,5 +113,18 @@ class CaixaDeEntrada : AppCompatActivity() {
             span = R.drawable.span_off
         )
         listaEmails.add(email7)
+
+        val email8 = Email(
+            perfil = R.drawable.capivara1,
+            titulo = "Email 8",
+            conteudo = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit sem ac maximus consectetur.",
+            estrela = R.drawable.estrela_off,
+            estudo = R.drawable.livro_off,
+            trabalho = R.drawable.trabalho_off,
+            redes = R.drawable.redes_off,
+            noticias = R.drawable.noticias_off,
+            span = R.drawable.span_off
+        )
+        listaEmails.add(email8)
     }
 }

@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ConectarEmails">
+    tools:context=".ConectarEmails"
+    android:background="@color/background2">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
@@ -50,7 +51,7 @@
                     android:layout_width="90dp"
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/gmail"
-                    app:backgroundTint="@color/colorSecondary"
+                    app:backgroundTint="@color/buttom2"
                     android:text="@string/gmail"
                     android:textSize="11sp" />
 
@@ -60,8 +61,8 @@
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/outlook"
                     android:layout_marginHorizontal="15dp"
-                    app:backgroundTint="@color/colorSecondary"
                     android:text="@string/outlook"
+                    app:backgroundTint="@color/buttom2"
                     android:textSize="11sp"/>
 
                 <com.google.android.material.button.MaterialButton
@@ -69,8 +70,8 @@
                     android:layout_width="90dp"
                     android:layout_height="100dp"
                     android:drawableTop="@drawable/thunderbird"
-                    app:backgroundTint="@color/colorSecondary"
                     android:text="@string/thunderbird"
+                    app:backgroundTint="@color/buttom2"
                     android:textSize="11sp"/>
             </LinearLayout>
         </LinearLayout>
